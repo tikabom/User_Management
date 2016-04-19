@@ -1,0 +1,9 @@
+<% _.each(users,function(user) { var authorized =
+user.get('authorized'); if(authorized == 'authorized') {%>
+<li><%= user.get('username') %>
+	<button class="delButton"><img class="usrImg" src="images/delete.png" width="30" height="30"></button>
+	<button class="editButton"><img class="usrImg" src="images/edit.png" width="30" height="30"></button>
+</li>
+<% } else {%>
+<li class="unapproved"><%= user.get('username') %></li>
+<%} });%>

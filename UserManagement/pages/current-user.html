@@ -1,0 +1,19 @@
+<form>
+	<span>Full name</span> 
+	<input id="fullname" type="text"
+		autocomplete="on" required="required"> <br> 
+	<span>Username</span> 
+	<input id="username" type="text"
+		autocomplete="on" required="required"> <br> 
+	<span>Password</span> 
+	<input id="password" type="password" required="required"
+		pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%!^\*&]).{6,20})" title="Password must have an Uppercase character, a Lowercase character, a digit, a special character and be 6-20 characters long"> <br>
+	<span>Email ID</span> 
+	<input id="emailId" type="email" autocomplete="on"
+		required="required"> <br> 
+	<input id="authorization" type="checkbox"> Allow user
+	to access ATG applications
+	<div class="apps"></div>
+	<input id="saveUser" type="submit" value="Save"> 
+	<input id="cancel" type="button" value="Cancel">
+</form>
