@@ -1,1 +1,2 @@
-# User_Management
+# User Management
+My first use of BackboneJS, RequireJS and UnderscoreJS. A basic, nifty little application that adds allows users and their roles to be managed. Built for a LAMP server.
